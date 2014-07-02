@@ -1,4 +1,4 @@
 CarouselTabs
 ============
 
-Carousel Tabs iOS library
+Carousel Tabs iOS example project.
