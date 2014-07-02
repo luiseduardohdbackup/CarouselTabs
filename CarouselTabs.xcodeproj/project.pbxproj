@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		363D413219633FCD00E49A3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363D413119633FCD00E49A3D /* Foundation.framework */; };
+		363D413419633FCD00E49A3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363D413319633FCD00E49A3D /* CoreGraphics.framework */; };
+		363D413619633FCD00E49A3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363D413519633FCD00E49A3D /* UIKit.framework */; };
+		363D413C19633FCD00E49A3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 363D413A19633FCD00E49A3D /* InfoPlist.strings */; };
+		363D413E19633FCD00E49A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 363D413D19633FCD00E49A3D /* main.m */; };
+		363D414219633FCD00E49A3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 363D414119633FCD00E49A3D /* AppDelegate.m */; };
+		363D414419633FCD00E49A3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 363D414319633FCD00E49A3D /* Images.xcassets */; };
+		363D41631963404900E49A3D /* CarouselTabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363D41621963404900E49A3D /* CarouselTabsViewController.m */; };
+		36545420196351B3001987B4 /* CarouselTabNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3654541F196351B3001987B4 /* CarouselTabNavigationController.m */; };
+		365454231963765D001987B4 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 365454221963765D001987B4 /* StartViewController.m */; };
+		3654542819637767001987B4 /* SimpleTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3654542619637767001987B4 /* SimpleTabViewController.m */; };
+		3654542919637767001987B4 /* SimpleTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3654542719637767001987B4 /* SimpleTabViewController.xib */; };
+		3698973D19645D43004B076B /* CarouselTabsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3698973B19645D43004B076B /* CarouselTabsViewController.xib */; };
+		3698973E19645D43004B076B /* CarouselTabsViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3698973C19645D43004B076B /* CarouselTabsViewController~ipad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		363D412E19633FCD00E49A3D /* CarouselTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		363D413119633FCD00E49A3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		363D413319633FCD00E49A3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		363D413519633FCD00E49A3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		363D413919633FCD00E49A3D /* CarouselTabs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarouselTabs-Info.plist"; sourceTree = "<group>"; };
+		363D413B19633FCD00E49A3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		363D413D19633FCD00E49A3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		363D413F19633FCD00E49A3D /* CarouselTabs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarouselTabs-Prefix.pch"; sourceTree = "<group>"; };
+		363D414019633FCD00E49A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		363D414119633FCD00E49A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		363D414319633FCD00E49A3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		363D414A19633FCD00E49A3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		363D41611963404900E49A3D /* CarouselTabsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarouselTabsViewController.h; path = CarouselTabs/CarouselTabsLib/CarouselTabsViewController.h; sourceTree = "<group>"; };
+		363D41621963404900E49A3D /* CarouselTabsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarouselTabsViewController.m; path = CarouselTabs/CarouselTabsLib/CarouselTabsViewController.m; sourceTree = "<group>"; };
+		3654541E196351B3001987B4 /* CarouselTabNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CarouselTabNavigationController.h; path = CarouselTabs/CarouselTabsLib/CarouselTabNavigationController.h; sourceTree = "<group>"; };
+		3654541F196351B3001987B4 /* CarouselTabNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CarouselTabNavigationController.m; path = CarouselTabs/CarouselTabsLib/CarouselTabNavigationController.m; sourceTree = "<group>"; };
+		365454211963765D001987B4 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		365454221963765D001987B4 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		3654542519637767001987B4 /* SimpleTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTabViewController.h; sourceTree = "<group>"; };
+		3654542619637767001987B4 /* SimpleTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTabViewController.m; sourceTree = "<group>"; };
+		3654542719637767001987B4 /* SimpleTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTabViewController.xib; sourceTree = "<group>"; };
+		3698973B19645D43004B076B /* CarouselTabsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CarouselTabsViewController.xib; path = CarouselTabs/CarouselTabsLib/CarouselTabsViewController.xib; sourceTree = "<group>"; };
+		3698973C19645D43004B076B /* CarouselTabsViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "CarouselTabsViewController~ipad.xib"; path = "CarouselTabs/CarouselTabsLib/CarouselTabsViewController~ipad.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		363D412B19633FCD00E49A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363D413419633FCD00E49A3D /* CoreGraphics.framework in Frameworks */,
+				363D413619633FCD00E49A3D /* UIKit.framework in Frameworks */,
+				363D413219633FCD00E49A3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363D412519633FCD00E49A3D = {
+			isa = PBXGroup;
+			children = (
+				363D416019633FEE00E49A3D /* CarouselTabsLib */,
+				363D413719633FCD00E49A3D /* CarouselTabs */,
+				363D413019633FCD00E49A3D /* Frameworks */,
+				363D412F19633FCD00E49A3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		363D412F19633FCD00E49A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				363D412E19633FCD00E49A3D /* CarouselTabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		363D413019633FCD00E49A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363D413119633FCD00E49A3D /* Foundation.framework */,
+				363D413319633FCD00E49A3D /* CoreGraphics.framework */,
+				363D413519633FCD00E49A3D /* UIKit.framework */,
+				363D414A19633FCD00E49A3D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		363D413719633FCD00E49A3D /* CarouselTabs */ = {
+			isa = PBXGroup;
+			children = (
+				363D414019633FCD00E49A3D /* AppDelegate.h */,
+				363D414119633FCD00E49A3D /* AppDelegate.m */,
+				365454211963765D001987B4 /* StartViewController.h */,
+				365454221963765D001987B4 /* StartViewController.m */,
+				3654542519637767001987B4 /* SimpleTabViewController.h */,
+				3654542619637767001987B4 /* SimpleTabViewController.m */,
+				3654542719637767001987B4 /* SimpleTabViewController.xib */,
+				363D414319633FCD00E49A3D /* Images.xcassets */,
+				363D413819633FCD00E49A3D /* Supporting Files */,
+			);
+			path = CarouselTabs;
+			sourceTree = "<group>";
+		};
+		363D413819633FCD00E49A3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				363D413919633FCD00E49A3D /* CarouselTabs-Info.plist */,
+				363D413A19633FCD00E49A3D /* InfoPlist.strings */,
+				363D413D19633FCD00E49A3D /* main.m */,
+				363D413F19633FCD00E49A3D /* CarouselTabs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		363D416019633FEE00E49A3D /* CarouselTabsLib */ = {
+			isa = PBXGroup;
+			children = (
+				363D41611963404900E49A3D /* CarouselTabsViewController.h */,
+				363D41621963404900E49A3D /* CarouselTabsViewController.m */,
+				3698973B19645D43004B076B /* CarouselTabsViewController.xib */,
+				3698973C19645D43004B076B /* CarouselTabsViewController~ipad.xib */,
+				3654541E196351B3001987B4 /* CarouselTabNavigationController.h */,
+				3654541F196351B3001987B4 /* CarouselTabNavigationController.m */,
+			);
+			name = CarouselTabsLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		363D412D19633FCD00E49A3D /* CarouselTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 363D415A19633FCD00E49A3D /* Build configuration list for PBXNativeTarget "CarouselTabs" */;
+			buildPhases = (
+				363D412A19633FCD00E49A3D /* Sources */,
+				363D412B19633FCD00E49A3D /* Frameworks */,
+				363D412C19633FCD00E49A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarouselTabs;
+			productName = CarouselTabs;
+			productReference = 363D412E19633FCD00E49A3D /* CarouselTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		363D412619633FCD00E49A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Igor Lipovac";
+			};
+			buildConfigurationList = 363D412919633FCD00E49A3D /* Build configuration list for PBXProject "CarouselTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 363D412519633FCD00E49A3D;
+			productRefGroup = 363D412F19633FCD00E49A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				363D412D19633FCD00E49A3D /* CarouselTabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		363D412C19633FCD00E49A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3654542919637767001987B4 /* SimpleTabViewController.xib in Resources */,
+				3698973E19645D43004B076B /* CarouselTabsViewController~ipad.xib in Resources */,
+				363D413C19633FCD00E49A3D /* InfoPlist.strings in Resources */,
+				3698973D19645D43004B076B /* CarouselTabsViewController.xib in Resources */,
+				363D414419633FCD00E49A3D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363D412A19633FCD00E49A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				363D414219633FCD00E49A3D /* AppDelegate.m in Sources */,
+				363D41631963404900E49A3D /* CarouselTabsViewController.m in Sources */,
+				3654542819637767001987B4 /* SimpleTabViewController.m in Sources */,
+				363D413E19633FCD00E49A3D /* main.m in Sources */,
+				36545420196351B3001987B4 /* CarouselTabNavigationController.m in Sources */,
+				365454231963765D001987B4 /* StartViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		363D413A19633FCD00E49A3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				363D413B19633FCD00E49A3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		363D415819633FCD00E49A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		363D415919633FCD00E49A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		363D415B19633FCD00E49A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarouselTabs/CarouselTabs-Prefix.pch";
+				INFOPLIST_FILE = "CarouselTabs/CarouselTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		363D415C19633FCD00E49A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarouselTabs/CarouselTabs-Prefix.pch";
+				INFOPLIST_FILE = "CarouselTabs/CarouselTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		363D412919633FCD00E49A3D /* Build configuration list for PBXProject "CarouselTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363D415819633FCD00E49A3D /* Debug */,
+				363D415919633FCD00E49A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		363D415A19633FCD00E49A3D /* Build configuration list for PBXNativeTarget "CarouselTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363D415B19633FCD00E49A3D /* Debug */,
+				363D415C19633FCD00E49A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 363D412619633FCD00E49A3D /* Project object */;
+}
